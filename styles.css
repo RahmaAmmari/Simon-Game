@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #f3f4f8;
+}
+
+#level-title {
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 3.5rem;
+  margin:  2%;
+  color: black;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #E16A54;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #f5735c;
+}
+
+.green {
+  background-color: #c8ffd8;
+}
+
+.blue {
+  background-color: #8cb9de;
+}
+
+.yellow {
+  background-color: #fff59e;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
